@@ -97,6 +97,19 @@ def main() -> None:
     for src, name, width in WEB_IMAGES:
         web_copy(PACK / src, WEB / name, width)
 
+    # The desktop: the screenshots' sky wallpaper (public domain) and Fluent Emoji 3D icons (MIT, notice kept).
+    sky = Image.open(args.src / "wallpaper/sky_rawpixel_3259446.jpg")
+    sky.resize((2400, round(sky.height * 2400 / sky.width)), Image.LANCZOS).save(
+        WEB / "sky.jpg", quality=78, optimize=True, progressive=True)
+    icons = DIR / "assets" / "icons"
+    shutil.rmtree(icons, ignore_errors=True)
+    icons.mkdir(parents=True)
+    for name in ("folder", "document", "notes", "spreadsheet", "trash"):
+        Image.open(args.src / f"icons/fluent/{name}.png").convert("RGBA").resize((96, 96), Image.LANCZOS).save(
+            icons / f"{name}.png", optimize=True)
+    shutil.copy2(args.src / "icons/fluent/LICENSE", icons / "LICENSE-fluent-emoji.txt")
+    Image.open(args.src / "community/client_icon_256x256.png").resize((96, 96), Image.NEAREST).save(icons / "milo.png")
+
     zpath = DIR / "PressKit_MilosDayShift.zip"
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
         for f in sorted(PACK.rglob("*")):
