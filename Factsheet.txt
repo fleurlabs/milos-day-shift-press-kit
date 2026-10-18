@@ -3,7 +3,7 @@ Milo's Day Shift Press Factsheet
 
 Game title:     Milo's Day Shift
 Developer:      Fleur Labs
-Release date:   TBA (wishlist on Steam now)
+Release date:   March 2027 (planned; wishlist on Steam now)
 Platforms:      PC (Steam)
 Website:        https://fleurlabs.github.io/milos-day-shift-press-kit/
 Steam:          https://store.steampowered.com/app/5443940/

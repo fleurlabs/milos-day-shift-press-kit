@@ -23,6 +23,6 @@ Edit `Factsheet.txt` and `index.html` for copy, then `python3 build.py` after an
 ## To do
 
 - [ ] Trailer (embed it under the pitch and add it to the factsheet)
-- [ ] Price and release date
+- [ ] Price (release planned for March 2027)
 - [ ] Replace the draft GIFs when the final ones are cut
 - [ ] Socials, if any
