@@ -1,0 +1,48 @@
+Milo's Day Shift Press Factsheet
+================================
+
+Game title:     Milo's Day Shift
+Developer:      Fleur Labs
+Release date:   TBA (wishlist on Steam now)
+Platforms:      PC (Steam)
+Website:        https://fleurlabs.github.io/milos-day-shift-press-kit/
+Steam:          https://store.steampowered.com/app/5443940/
+Price:          TBD
+Press contact:  milosdayshift@gmail.com
+Genre:          Cozy idle RPG / desktop companion
+
+One-sentence hook
+-----------------
+A tiny dungeon crawler that works the day shift on your desktop.
+
+Short description
+-----------------
+Your new coworker lives in a pop-up diorama on your desktop. Milo clocks in, battles slimes and skeletons room by
+room, and trudges home to nap by the campfire when he's pooped. Spend his loot to forge better swords and grow a
+cozy little town, or just let him work.
+
+About the game
+--------------
+Milo lives in a little paper diorama on your screen. While you work, he fights his way down the dungeon room by room,
+then heads home to nap by the campfire and clocks back in. You don't have to do a thing.
+
+Key features
+------------
+- A pop-up book on your desktop. Pixel-art cutouts on a wooden base that fold down and pop up like a storybook. No
+  window frame: clicks around the diorama go straight through to your desktop.
+- Idle, with real progress. Forge Milo's sword and shield from Bronze to Adamant and watch them change on him. Raise a
+  town, collect relics, and push through five biomes and 50 floors, then Overtime. Nothing is ever lost, and Milo
+  keeps working while the game is closed.
+- Help out if you like. Click Milo mid-fight to cheer him on, or while he naps to help him heal. Ignoring him never
+  sets you back.
+- Full of little moments. Crit home runs, paper-spin knockouts, mimics, and bosses that hit the floor with a thud.
+- Made to stay open all day, with settings for frame rate and window size.
+
+Trailer
+-------
+Coming soon.
+
+Press assets
+------------
+Logo, icons, screenshots, capsule and key art, GIFs and transparent renders: download the zip from the press kit
+page, or browse PressKit_MilosDayShift/ in the repository. Free to use in coverage of the game.
