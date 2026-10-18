@@ -14,6 +14,7 @@ Public press kit for **Milo's Day Shift** by Fleur Labs, hosted on GitHub Pages.
 | `PressKit_MilosDayShift.zip` | The same pack as one download |
 | `assets/img/` | Smaller copies used by the page, plus the sky wallpaper (rawpixel 3259446, public domain) |
 | `assets/icons/` | Desktop icons: Microsoft Fluent Emoji 3D (MIT, notice in `LICENSE-fluent-emoji.txt`) and the game's app icon |
+| `assets/email/clock_in.gif` | The outreach email's GIF (560 px, ~0.7 MB; made by the game repo's `marketing/steam/scripts/make_email_gif.sh`). **Keep this URL forever** once emails link it: sent emails load it from here |
 | `build.py` | Rebuilds the pack, the web copies and the zip from the game's `marketing/steam/` art |
 
 ## Updating
