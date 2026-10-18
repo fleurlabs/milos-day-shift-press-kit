@@ -8,7 +8,7 @@ Public press kit for **Milo's Day Shift** by Fleur Labs, hosted on GitHub Pages.
 
 | Path | Purpose |
 |------|---------|
-| `index.html` / `styles.css` | The press kit page, styled as a desktop: a new-hire memo (pitch and features), a time card (factsheet), and explorer windows for GIFs, screenshots and art |
+| `index.html` / `styles.css` | The press kit page, styled as a desktop: an "About the game" document (pitch and features), a time card (factsheet), and explorer windows for GIFs, screenshots and art |
 | `Factsheet.txt` | Plain-text factsheet (also copied into the pack) |
 | `PressKit_MilosDayShift/` | The asset pack: logo and icons, screenshots, capsules and key art, GIFs, transparent renders |
 | `PressKit_MilosDayShift.zip` | The same pack as one download |

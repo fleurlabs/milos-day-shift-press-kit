@@ -193,7 +193,6 @@ a { color: var(--link); }
 .doc p { margin: 0; }
 .doc ul { margin: 0; padding-left: 1.2rem; }
 .doc li { margin: 0 0 8px; }
-.doc__notes li { color: var(--ink-soft); }
 
 .doc__figure { margin: 18px 0 4px; }
 .doc__figure img { border: 1px solid var(--chrome-line); }
@@ -203,8 +202,6 @@ a { color: var(--link); }
 
 .paperwork {
   grid-column: 2;
-  position: sticky;
-  top: 16px;
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -374,7 +371,7 @@ a { color: var(--link); }
   .stage__tag { margin: 0; }
   .windows { grid-column: 1; grid-template-columns: minmax(0, 1fr); }
   .window--doc, .paperwork { grid-column: 1; }
-  .paperwork { position: static; padding-top: 0; }
+  .paperwork { padding-top: 0; }
 }
 
 @media (max-width: 560px) {
