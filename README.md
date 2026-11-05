@@ -24,6 +24,6 @@ Edit `Factsheet.txt` and `index.html` for copy, then `python3 build.py` after an
 ## To do
 
 - [ ] Trailer (embed it under the pitch and add it to the factsheet)
-- [ ] Price (release planned for March 2027)
+- [x] Price and date: $4.99, Nov 30, 2026 (Windows and macOS)
 - [ ] Replace the draft GIFs when the final ones are cut
 - [ ] Socials, if any

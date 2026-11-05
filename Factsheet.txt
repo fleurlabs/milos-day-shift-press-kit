@@ -3,11 +3,11 @@ Milo's Day Shift Press Factsheet
 
 Game title:     Milo's Day Shift
 Developer:      Fleur Labs
-Release date:   March 2027 (planned; wishlist on Steam now)
-Platforms:      PC (Steam)
+Release date:   November 30, 2026 (wishlist on Steam now)
+Platforms:      Windows and macOS (Steam)
 Website:        https://fleurlabs.github.io/milos-day-shift-press-kit/
 Steam:          https://store.steampowered.com/app/5443940/
-Price:          TBD
+Price:          $4.99 USD (20% off launch week)
 Press contact:  milosdayshift@gmail.com
 Genre:          Cozy idle RPG / desktop companion
 
