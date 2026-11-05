@@ -53,6 +53,19 @@ FILES = [
     ("renders/shot_guardian.png", "05_Transparent_Renders/Guardian.png"),
     ("renders/shot_boss.png", "05_Transparent_Renders/Boss.png"),
     ("renders/shot_mimic.png", "05_Transparent_Renders/Mimic.png"),
+    # For video thumbnails: no buttons or numbers, trimmed, four angles (marketing/steam/scripts/render_thumbnails.sh).
+    ("renders/thumb_camp_left.png", "06_Thumbnail_Renders/Camp_Left.png"),
+    ("renders/thumb_camp_front.png", "06_Thumbnail_Renders/Camp_Front.png"),
+    ("renders/thumb_camp_right.png", "06_Thumbnail_Renders/Camp_Right.png"),
+    ("renders/thumb_camp_high.png", "06_Thumbnail_Renders/Camp_High.png"),
+    ("renders/thumb_fight_left.png", "06_Thumbnail_Renders/Fight_Left.png"),
+    ("renders/thumb_fight_front.png", "06_Thumbnail_Renders/Fight_Front.png"),
+    ("renders/thumb_fight_right.png", "06_Thumbnail_Renders/Fight_Right.png"),
+    ("renders/thumb_fight_high.png", "06_Thumbnail_Renders/Fight_High.png"),
+    ("renders/thumb_boss_left.png", "06_Thumbnail_Renders/Boss_Left.png"),
+    ("renders/thumb_boss_front.png", "06_Thumbnail_Renders/Boss_Front.png"),
+    ("renders/thumb_boss_right.png", "06_Thumbnail_Renders/Boss_Right.png"),
+    ("renders/thumb_boss_high.png", "06_Thumbnail_Renders/Boss_High.png"),
 ]
 
 # Web copies: (pack path, web name, max width). Screenshots become JPEGs; PNGs keep transparency.
@@ -65,6 +78,7 @@ WEB_IMAGES = [
     ("03_Key_Art_and_Capsules/Capsule_Portrait_600x900.png", "portrait.jpg", 600),
     ("05_Transparent_Renders/Camp.png", "render_camp.png", 900),
     ("05_Transparent_Renders/Boss.png", "render_boss.png", 900),
+    ("06_Thumbnail_Renders/Camp_Left.png", "thumb_camp_left.png", 900),
 ] + [(f"02_Screenshots/{p.split('/')[-1]}", p.split("/")[-1].replace(".png", ".jpg"), 1280)
      for _, p in FILES if p.startswith("02_Screenshots/")]
 
